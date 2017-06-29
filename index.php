@@ -33,7 +33,7 @@ foreach($res as $value) {
  function addGiftCardToDiscounts($discount){
 
     $ch = curl_init();
-    $key = "ST_ODJiZTM2MGUtZmNlMy00NjQ2LTk4YzAtMWRhZGNjMWM3OTUxNjM2MzQxNDM2MjQ2NDExNDg1";
+    $key = "";
     $options = array(
         CURLOPT_URL            => "https://app.snipcart.com/api/discounts",
         CURLOPT_USERPWD        => $key,
